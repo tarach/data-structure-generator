@@ -39,9 +39,10 @@ Other components include:
 |    DQG    |  Domain Query Generator           |
 |    DQI    |  Domain Query Invoker             |
 
-|      DSD                                               |      DED      |      DQG      |
-| ------------------------------------------------------ | ------------- | ------------- |
-| [<img src="//bit.ly/2LHimqi">](https://bit.ly/2vpSi8c) | diagram thumb | diagram thumb |
+|      DSD                                                     |      DED      |      DQG      |
+| ------------------------------------------------------------ | ------------- | ------------- |
+| [<img src="https://bit.ly/2LFXXBX">](https://bit.ly/2vpSi8c) | diagram thumb | diagram thumb |
+~ click for full diagram
 
 Features
 ========
