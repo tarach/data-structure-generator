@@ -9,15 +9,15 @@ Table of contents
    * Usage
       * [Programmatically ( as library )](#programmatically-as-library)
       * [Commands](#commands)
-          * [diff-generate](dsgdiff-generate)
-          * [diff-apply](dsgdiff-apply)
-          * [find-all](dsgfind-all)
-          * [from-db](dsgfrom-db)
-          * [from-json](dsgfrom-json)
-          * [from-php-conf](dsgfrom-php-conf)
-          * [from-php-class](dsgfrom-php-class)
-          * [from-yaml](dsgfrom-yaml)
-          * [from-xml](dsgfrom-xml)
+          * [diff-generate](diff-generate)
+          * [diff-apply](diff-apply)
+          * [find-all](find-all)
+          * [from-db](from-db)
+          * [from-json](from-json)
+          * [from-php-conf](from-php-conf)
+          * [from-php-class](from-php-class)
+          * [from-yaml](from-yaml)
+          * [from-xml](from-xml)
    * [Tests](#tests)
    * [Dependencies](#dependencies)
 <!--te-->
@@ -48,9 +48,9 @@ Features
 ========
 
 * Intuitive structure definition
-* Database reverse engineering tool [from-db](dsgfrom-db)
-* Many definition file formats supported including conversion between them ( [XML](dsgfrom-xml), 
-[PHP Config](dsgfrom-php-conf), [PHP Class](dsgfrom-php-class), [YAML](dsgfrom-yaml) and [JSON](dsgfrom-json) )
+* Database reverse engineering tool [from-db](from-db)
+* Many definition file formats supported including conversion between them ( [XML](from-xml), 
+[PHP Config](from-php-conf), [PHP Class](from-php-class), [YAML](from-yaml) and [JSON](from-json) )
 * Easily extensible thanks to SOLID principles
 * Easily accessible definition structure
 * Builder for PHP made with fluent interfaces allowing to leverage OPCache
@@ -75,48 +75,48 @@ source ~/.bashrc
 ```
 After that you will able to call commands using an alias ```dsg ```
 
-dsg:diff-generate
-=================
+diff-generate
+=============
 
 ```dsg dsg:diff-generate <resource1> <resource2>``` 
 Generates data structures modification commands
 ```dsg dsg:diff-generate config/data-structure.php mysql:dbname=test;host=127.0.0.1;port=3306```
 
-dsg:diff-apply
-==============
+diff-apply
+==========
 
 ```dsg dsg:diff-apply <> <invoker-name|"default">``` 
 Requires ```DQI ( Domain Query Invoker )```
 Make changes in data st
 
-dsg:find-all
-============
+find-all
+========
 
 Find all definitions in given directory and subdirectories. 
 Use ```-r``` option to disable directory recursion or ```-d``` to set recursions maximum depth.
 
-dsg:from-db
-===========
+from-db
+=======
 
 Convert ```Database``` to ```\<x>```
 
-dsg:from-json
-=============
+from-json
+=========
 
 Convert ```JSON``` to ```\<x>```
 
-dsg:from-php
-============
+from-php
+========
 
 Convert ```PHP``` to ```\<x>```
 
-dsg:from-yaml
-=============
+from-yaml
+=========
 
 Convert ```YAML``` to ```\<x>```
 
-dsg:from-xml
-============
+from-xml
+========
 
 Convert ```XML``` to ```\<x>```
 
@@ -126,4 +126,4 @@ Tests
 Dependencies
 ============
 Relies on ```webfront/data-structure-definition``` in all cases 
-and on ```webfront/domain-query-invoker``` for [from-db](dsgfrom-db) and [diff-apply](dsgdiff-apply) commands.
+and on ```webfront/domain-query-invoker``` for [from-db](from-db) and [diff-apply](diff-apply) commands.
