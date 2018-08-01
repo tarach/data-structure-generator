@@ -9,15 +9,15 @@ Table of contents
    * Usage
       * [Programmatically ( as library )](#programmatically-as-library)
       * [Commands](#commands)
-          * [diff-generate](dsg:diff-generate)
-          * [diff-apply](dsg:diff-apply)
-          * [find-all](dsg:find-all)
-          * [from-db](dsg:from-db)
-          * [from-json](dsg:from-json)
-          * [from-php-conf](dsg:from-php-conf)
-          * [from-php-class](dsg:from-php-class)
-          * [from-yaml](dsg:from-yaml)
-          * [from-xml](dsg:from-xml)
+          * [diff-generate](dsgdiff-generate)
+          * [diff-apply](dsgdiff-apply)
+          * [find-all](dsgfind-all)
+          * [from-db](dsgfrom-db)
+          * [from-json](dsgfrom-json)
+          * [from-php-conf](dsgfrom-php-conf)
+          * [from-php-class](dsgfrom-php-class)
+          * [from-yaml](dsgfrom-yaml)
+          * [from-xml](dsgfrom-xml)
    * [Tests](#tests)
    * [Dependencies](#dependencies)
 <!--te-->
@@ -48,9 +48,9 @@ Features
 ========
 
 * Intuitive structure definition
-* Database reverse engineering tool [from-db](dsg:from-db)
-* Many definition file formats supported including conversion between them ( [XML](dsg:from-xml), 
-[PHP Config](dsg:from-php-conf), [PHP Class](dsg:from-php-class), [YAML](dsg:from-yaml) and [JSON](dsg:from-json) )
+* Database reverse engineering tool [from-db](dsgfrom-db)
+* Many definition file formats supported including conversion between them ( [XML](dsgfrom-xml), 
+[PHP Config](dsgfrom-php-conf), [PHP Class](dsgfrom-php-class), [YAML](dsgfrom-yaml) and [JSON](dsgfrom-json) )
 * Easily extensible thanks to SOLID principles
 * Easily accessible definition structure
 * Builder for PHP made with fluent interfaces allowing to leverage OPCache
@@ -126,4 +126,4 @@ Tests
 Dependencies
 ============
 Relies on ```webfront/data-structure-definition``` in all cases 
-and on ```webfront/domain-query-invoker``` for [from-db](dsg:from-db) and [diff-apply](dsg:diff-apply) commands.
+and on ```webfront/domain-query-invoker``` for [from-db](dsgfrom-db) and [diff-apply](dsgdiff-apply) commands.
