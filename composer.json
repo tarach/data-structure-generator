@@ -1,0 +1,14 @@
+{
+    "name": "webfront/data-structure-generator",
+    "description": "Aims to provide platform independent ( SQL / noSQL / Graph ) database or data storage structure definition support",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Tarach",
+            "email": "sebastian.tarach@webfront.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
