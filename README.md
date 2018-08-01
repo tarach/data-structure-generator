@@ -9,15 +9,15 @@ Table of contents
    * Usage
       * [Programmatically ( as library )](#programmatically-as-library)
       * [Commands](#commands)
-          * [diff-generate](diff-generate)
-          * [diff-apply](diff-apply)
-          * [find-all](find-all)
-          * [from-db](from-db)
-          * [from-json](from-json)
-          * [from-php-conf](from-php-conf)
-          * [from-php-class](from-php-class)
-          * [from-yaml](from-yaml)
-          * [from-xml](from-xml)
+          * [diff-generate](#diff-generate)
+          * [diff-apply](#diff-apply)
+          * [find-all](#find-all)
+          * [from-db](#from-db)
+          * [from-json](#from-json)
+          * [from-php-conf](#from-php-conf)
+          * [from-php-class](#from-php-class)
+          * [from-yaml](#from-yaml)
+          * [from-xml](#from-xml)
    * [Tests](#tests)
    * [Dependencies](#dependencies)
 <!--te-->
@@ -48,9 +48,9 @@ Features
 ========
 
 * Intuitive structure definition
-* Database reverse engineering tool [from-db](from-db)
-* Many definition file formats supported including conversion between them ( [XML](from-xml), 
-[PHP Config](from-php-conf), [PHP Class](from-php-class), [YAML](from-yaml) and [JSON](from-json) )
+* Database reverse engineering tool [from-db](#from-db)
+* Many definition file formats supported including conversion between them ( [XML](#from-xml), 
+[PHP Config](#from-php-conf), [PHP Class](#from-php-class), [YAML](#from-yaml) and [JSON](#from-json) )
 * Easily extensible thanks to SOLID principles
 * Easily accessible definition structure
 * Builder for PHP made with fluent interfaces allowing to leverage OPCache
@@ -126,4 +126,4 @@ Tests
 Dependencies
 ============
 Relies on ```webfront/data-structure-definition``` in all cases 
-and on ```webfront/domain-query-invoker``` for [from-db](from-db) and [diff-apply](diff-apply) commands.
+and on ```webfront/domain-query-invoker``` for [from-db](#from-db) and [diff-apply](#diff-apply) commands.
