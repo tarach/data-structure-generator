@@ -39,10 +39,9 @@ Other components include:
 |    DQG    |  Domain Query Generator           |
 |    DQI    |  Domain Query Invoker             |
 
-|      DSD       |      DED      |      DQG      |
-| -------------- | ------------- | ------------- |
-| Content Cell   | Content Cell  | Content Cell  |
-| Content Cell   | Content Cell  | Content Cell  |
+|      DSD                                               |      DED      |      DQG      |
+| ------------------------------------------------------ | ------------- | ------------- |
+| [<img src="//bit.ly/2LHimqi">](https://bit.ly/2vpSi8c) | diagram thumb | diagram thumb |
 
 Features
 ========
